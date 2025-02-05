@@ -8,7 +8,7 @@ def quicksort(arr, low=0, high=None):
         quicksort(arr, p+1, high)
 
 def partition(arr, low, high):
-    pivot = arr[high]
+    pivot = arr[high] #Taking pivot at the last element
     i = low
     j = high - 1
     
